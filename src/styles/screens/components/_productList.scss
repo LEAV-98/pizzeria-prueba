@@ -1,0 +1,35 @@
+.product-list {
+  display: flex;
+  padding: 7rem 0;
+  justify-content: space-around;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.product-item {
+  width: 30%;
+  padding: 1rem;
+  border: 1px solid rgb(190, 189, 189);
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  h2 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+  button {
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    padding: 1rem 0;
+    &:hover {
+      opacity: 70%;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .product-item {
+    width: 50%;
+  }
+}

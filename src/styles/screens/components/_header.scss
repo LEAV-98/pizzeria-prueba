@@ -1,0 +1,33 @@
+.header {
+  background-color: $primary;
+}
+.header__nav-ul {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 5rem;
+  border-radius: 10rem;
+  li {
+    display: inline-block;
+    height: 100%;
+  }
+
+  .link-item {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 100%;
+    font-size: 2rem;
+
+    &:hover {
+      opacity: 70%;
+    }
+  }
+  .shopping {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+  }
+}

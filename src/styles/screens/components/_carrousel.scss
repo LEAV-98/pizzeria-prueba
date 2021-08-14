@@ -1,0 +1,28 @@
+.ct1 {
+  background: url(https://res.cloudinary.com/dbnds4vtj/image/upload/v1628055133/bg3_azhxfp.jpg);
+}
+.ct2 {
+  background: url(https://res.cloudinary.com/dbnds4vtj/image/upload/v1628055129/bg2_vdvhdr.jpg);
+}
+.ct3 {
+  background-image: url(https://res.cloudinary.com/dbnds4vtj/image/upload/v1628055121/bg4_bznfcg.jpg);
+}
+
+.carrousel-item {
+  width: 100%;
+  height: calc(100vh - 5rem);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carrousel-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carrousel-title {
+  color: white;
+}
